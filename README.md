@@ -2,57 +2,56 @@
 
 A simple full-stack web application where users can add new products and view them on the homepage. This app is built using **React (Vite)** for the frontend, **Node.js + Express** for the backend, and **MongoDB** as the database.
 
-## 🔧 Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 - **Frontend**: React with Vite
 - **Backend**: Node.js + Express
 - **Database**: MongoDB
 - **API Client**: Axios
-- **Styling**: Tailwind CSS / CSS Modules (update based on your choice)
+- **Styling**: Tailwind CSS (or your preferred CSS solution)
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - Add a product with name, image, price, and description.
 - Display all added products on the home screen.
-- REST API integration between frontend and backend.
-- MongoDB database for persistent storage.
+- RESTful API integration between frontend and backend.
+- MongoDB used for persistent product storage.
 
 ---
 
-## 📦 Installation
+## 📦 Installation Guide
 
-### Prerequisites
-
-- Node.js
-- MongoDB (local or Atlas)
-- npm or yarn
-
-### Clone the repo
-
-```bash
-git clone https://github.com/yourusername/product-catalog-app.git
-cd product-catalog-app
+Follow the steps below to set up the project locally on your machine.
 
 ---
 
 ### 🚀 Backend Setup
+
+```bash
 cd backend
 npm install
-npm run dev
+```
 
 ---
-
-###Frontend Setup
+### Frontend Setup
+```bash
 cd frontend
 npm install
-npm run dev
-
+```
+---
+### Env file 
+```bash
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
 ---
 
-####Project Structure
-
+### Project Structure
+```bash
 product-catalog-app/
 ├── backend/
 │   ├── models/
@@ -64,13 +63,10 @@ product-catalog-app/
 │   │   ├── pages/
 │   │   └── App.jsx
 └── README.md
+```
 
-----
 
 
- Environment Variables
 
-Create a .env file inside the backend folder:
 
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+
