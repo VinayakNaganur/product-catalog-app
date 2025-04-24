@@ -35,8 +35,8 @@ Follow the steps below to set up the project locally on your machine.
 cd backend
 npm install
 ```
+Initially run the backend and then close the backend by clicking cd and then open the next termnial by opening the below commmand and then you will see the proper running project thank you
 
----
 ### Frontend Setup
 ```bash
 cd frontend
